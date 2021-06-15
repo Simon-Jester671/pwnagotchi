@@ -22,7 +22,7 @@ class Voice:
 
     def on_starting(self):
         return random.choice([
-            self._('Hi, I\'m Pwnagotchi! Starting ...'),
+            self._('Hi, I\'m Simon! Starting ...'),
             self._('New day, new hunt, new pwns!'),
             self._('Hack the Planet!')])
 
