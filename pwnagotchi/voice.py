@@ -72,7 +72,7 @@ class Voice:
         return random.choice([
             '...',
             self._('Leave me alone ...'),
-	    self._('You suck!'),
+	        self._('You suck!'),
             self._('I\'m mad at you!')])
 
     def on_excited(self):
